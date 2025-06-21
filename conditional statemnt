@@ -1,0 +1,19 @@
+my_list=[1,2,3,4,5,6]
+largest =my_list[0]
+for num in my_list:
+    if num > largest:
+        largest= num
+print(largest)        
+
+my_list = [3, 9, 1, 6, 2, 8]
+total=0
+for num in my_list:
+    total+=num
+average=total/len(my_list)  
+print(average)
+
+
+string = "MY PAPA is the best father in the world"
+for char in string:
+    if string.isupper():
+        print(char)
