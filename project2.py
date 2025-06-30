@@ -304,24 +304,31 @@
 # up=rev.upper()
 # print(up)
 # print(up.replace("L","x"))
-size_1=int(input("enter the size1 of the house:"))
-bed_rooms1=int(input("enter the bed rooms1 you want:"))
-price1=float(input("enter your buget1:"))
-print()
-size_2=int(input("enter the size2 of the house: "))
-bed_rooms2=int(input("enter the bed rooms2 you wnat:"))
-price2=float(input("enter your buget:"))
+# size_1=int(input("enter the size1 of the house:"))
+# bed_rooms1=int(input("enter the bed rooms1 you want:"))
+# price1=float(input("enter your buget1:"))
+# print()
+# size_2=int(input("enter the size2 of the house: "))
+# bed_rooms2=int(input("enter the bed rooms2 you wnat:"))
+# price2=float(input("enter your buget:"))
 
-price_house_1=size_1*5000
-price_house_2=size_2*5000
+# price_house_1=size_1*5000
+# price_house_2=size_2*5000
 
-threshold_price=7500000
-your_prize1=price_house_1>=threshold_price
-your_prize2=price_house_2>=threshold_price
-print("user1 price is grater than thresold price :", your_prize1)
-print("user2 price is greater than the thresold price :",your_prize2)
+# threshold_price=7500000
+# your_prize1=price_house_1>=threshold_price
+# your_prize2=price_house_2>=threshold_price
+# print("user1 price is grater than thresold price :", your_prize1)
+# print("user2 price is greater than the thresold price :",your_prize2)
 
 
+email_address=input("enter the email address:")
+pos="@"
+pos1="."
+if pos in email_address and pos1 in email_address:
+    print("valid email")
+else:
+    print('invalid email')
 
 
 
