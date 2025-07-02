@@ -10,16 +10,6 @@
 # for a,b in familiy.items():
 #     print(a,b['contact'])
 
-heads=int(input("Enter No. of Heads:"))
-legs=int(input("Enter No. of legs:"))
-#c+d=4------------head
-#2c+4g=12------------legs
-# 2c=12-4g
-# c=(12-4g)/2
-#g=(12-2c)/4
-chicken=(legs-4*4)/2
-goats=(legs-2*2)/4
-print(goats)
-print(chicken)
+
 
  

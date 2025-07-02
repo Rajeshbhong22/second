@@ -1,4 +1,4 @@
-#write a program to print number from 10 to 15.
+'''#write a program to print number from 10 to 15.
 a=10
 while a<=15:
     print(a)
@@ -26,8 +26,37 @@ while number<=5:
     product*=number
     number+=1
 print(product)
+#question no 5
 
+string=input('enter the stirng:')
+words=string.split()
+for word in words:
+    i=len(word)-1
+    while i>=0:
+        print(word[i], end="")
+        i-=1
+    print(" ", end=" ")
+    print()
 
+#lefht not using
+string=input('enter the string:')
+count=0
+index=0
+while index<len(string):
+    count+=1
+    index+=1
+print(count)
+
+multiple=4
+count=1
+while count<=10:
+    print(multiple, end="")
+    multiple+=4
+    count+=1'''
 
 
     
+    
+
+print("hellow world")
+
