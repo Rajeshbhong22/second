@@ -1,9 +1,9 @@
-heads=int(input("enter the total heads:"))
-legs=int(input("enter the total legs:"))
-goats=(legs-(2*heads))/2
-chickens=(4*heads-(legs))/2
-print("total number of goats are:",goats)
-print("total number of chickens are:", chickens)
+# heads=int(input("enter the total heads:"))
+# legs=int(input("enter the total legs:"))
+# goats=(legs-(2*heads))/2
+# chickens=(4*heads-(legs))/2
+# print("total number of goats are:",goats)
+# print("total number of chickens are:", chickens)
 
 # #creating tuple
 # a=(1,2,3,4)
@@ -77,3 +77,14 @@ print("total number of chickens are:", chickens)
 # print()
 # t=(1,2,3,4)
 # del t
+
+
+# product_dictonary={}
+# for i in range(1,4):
+#     id=int(input("enter the id of product:"))
+#     name=input("enter the name of product:")
+#     product_dictonary.update({id:name})
+# print(product_dictonary)
+l1=[1,2,3,4]
+l2=[100,200,300,400]
+list(zip(l1,l2))

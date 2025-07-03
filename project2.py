@@ -321,17 +321,14 @@
 # print("user1 price is grater than thresold price :", your_prize1)
 # print("user2 price is greater than the thresold price :",your_prize2)
 
+my_dictionay={"a":1,"b":2,"c":3}
+tup=tuple(my_dictionay)
+print(tup)
 
-email_address=input("enter the email address:")
-pos="@"
-pos1="."
-if pos in email_address and pos1 in email_address:
-    print("valid email")
-else:
-    print('invalid email')
-
-
-
+#converting string into a tuple
+string_example="rajesh kashinath bhong"
+b=tuple(string_example)
+print(b)
 
 
 
