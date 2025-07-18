@@ -329,6 +329,13 @@ print(tup)
 string_example="rajesh kashinath bhong"
 b=tuple(string_example)
 print(b)
+#set converting into tuple
+set={10,20,30,40,50,60,72}
+tup=tuple(set)
+print(tup)
+
+s=[1,2,3,4,5]
+print(sum(s))
 
 
 

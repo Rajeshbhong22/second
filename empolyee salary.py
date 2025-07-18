@@ -11,4 +11,3 @@ print("the gross-salary of employee(without tax:", gross_salary)
 p_tax=gross_salary*0.02
 net_salary=(gross_salary-p_tax)
 print("The net salary of the employee is:", net_salary)
-print(vishal raut)
