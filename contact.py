@@ -68,20 +68,32 @@
 # s1 = Student()
 
 # # call display() method using the object
-# s1.displa
-
-list=[1,2,3]
-a,b,c=list
-print(a)
-print(b)
-print(c)
+# s1.display
 
 
 class Student:
-  def __init__(self, name, age):
-    self.name= name
-    self.age=age
-  def __str__(self):
-    return f'{self.name, self.age}'
-s1=Student("rajesh",99)
-print(s1)
+    def __init__(self,name,salary):
+        self.salary=salary
+        self.name=name
+    def get_name(self):
+        return self.name
+    def set_name(self, name):
+        if name.isalpah():
+            self.name=name
+            return self.name
+        else:
+            print("name enter in a string")
+    def get_salary(self):
+        return self.salary
+    def set_salary(self, salary):
+        if salary>25000:
+            self.salary=salary
+            print("enter salary below,25k")
+        else:
+            print(self.salary)
+a1=Student("rajesh",25000)
+a1.get_name("mahesg")
+a1.get_salary(25000)      
+                 
+
+        
